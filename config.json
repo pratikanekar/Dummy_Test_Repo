@@ -1,0 +1,17 @@
+{
+  "modbus_server_ip": "10.129.6.198",
+  "modbus_server_port": "/dev/ttyUSB0",
+  "modbus_slave_address": 1,
+  "register_type": "holding",
+  "modbus_register_address": 99,
+  "modbus_register_count": 8,
+  "modbus_baudrate": 9600,
+  "modbus_parity": "N",
+  "modbus_bytesize": 8,
+  "modbus_stopbits": 1,
+  "client_id": "client 1",
+  "mqtt_broker_address": "10.129.2.139",
+  "username": "admin",
+  "password": "admin123",
+  "mqtt_topic": "energy/data"
+}
